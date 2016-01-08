@@ -434,7 +434,7 @@ public class VideoEditor extends CordovaPlugin {
         JSONObject options = args.optJSONObject(0);
         Log.d(TAG, "options: " + options.toString());
 
-        //String fileUri = options.getString("fileUri");
+        String fileUri = options.getString("fileUri");
         //if (!fileUri.startsWith("file:/")) {
         //    fileUri = "file:/" + fileUri;
         //}
